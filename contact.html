@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="author" content="Adrián Lesný (AxL)" />
+	<meta name="description" content="Kontakt na programátora Adriána Lesného, programovanie na zákazku." />
+	<meta name="keywords" content="Adrián Lesný, AxL, kontakt, zákazka, programovanie, programátor, web developer" />
+	<link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+	<title>Adrián Lesný - Kontakt</title>
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+	<script src="assets/js/sendForm.js" defer></script>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<h1>Adrián<span>Lesný</span></h1>
+			<small>Web Developer</small>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">O mne</a></li>
+				<li><a href="skills.html">Zručnosti</a></li>
+				<li><a href="references.html">Referencie</a></li>
+				<li><a href="contact.html" class="contact-button">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<header>
+			<h1>Kontakt</h1>
+		</header>
+		<section>
+			<p>
+				<img src="assets/img/e-mail.png" alt="e-mail" id="e-mail" class="left" />
+				Ak mi chcete niečo oznámiť, napíšte mi e-mail na <strong><a href="mailto:adrianxlesny@gmail.com" id="mailTo">adrianxlesny@gmail.com</a></strong> alebo použite formulár nižšie.
+			</p>
+
+			<form id="contact-form">
+				<label for="name">Meno</label>
+				<input type="text" id="name" name="name" required />
+				<label for="email">E-mail</label>
+				<input type="email" id="email" name="email" required />
+				<label for="message">Správa</label>
+				<textarea name="message" id="message" rows="5" required></textarea>
+				<input type="submit" name="submit" value="Odoslať" />
+				<p id="status" class="status"></p>
+			</form>
+
+			<div class="cleaner"></div>
+		</section>
+	</article>
+	<footer>
+		<div class="copyright">Copyright &copy; 2026 AxL</div>
+		<div class="sources">
+			Images designed by:
+			<ul>
+				<li><a href="https://www.freepik.com/author/freepik" target="_blank">Freepik</a></li>
+				<li><a href="https://www.freepik.com/author/user4016767" target="_blank">Boris farias</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
